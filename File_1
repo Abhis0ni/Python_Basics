@@ -1,0 +1,46 @@
+# Checking datatype
+x= 3.99
+X= 10
+y= True
+z= "SQL"
+print(type(x))
+print(type(X))
+print(type(y))
+print(type(z))
+
+# Prompt input from user
+Num1 = int(input("Please enter No.1: "))
+Num2 = int(input("Please enter No.2: "))
+FName = input("Please enter first name: ")
+LName = input("Please enter last name: ")
+print("Sum =",Num1+Num2)
+print("Float Division =",Num1/Num2)
+print("Integer Division =",Num1//Num2)
+print("Mod =",Num1%Num2)
+print("Power =",Num1**Num2)
+print("Concatenate Name =",FName+" "+LName)
+print("Repeat Name 3 times=",FName*3)
+Num2+=7
+print("Num2 +=7 ",Num2)
+print("Is Num1 = Num2 ? ", Num1 == Num2)
+
+# logical operators in Python ( Logical check will happen for expression result)
+# and -> Returns true if both statements are true 
+# or -> Returns true if one of statements are true
+# not -> Reverse the result, returns false if the result is true
+
+print("Is Num1>10 and Num2<10 ? " , Num1>10 and Num2<10)
+print("Is Num1>20 or Num2<10 ? " , Num1>10 or Num2<10)
+print("not(Num1>20 and Num2<10) ? " , not(Num1>10 and Num2<10)) 
+
+
+# IF else conditions
+Marks = int(input("Enter Marks :"))
+if Marks > 90:
+    Print("A+")
+elif Marks<90 and Marks>70:
+    print("A")
+elif Marks<70 and Marks>50:
+    print("B+")
+else: 
+    print("B")
