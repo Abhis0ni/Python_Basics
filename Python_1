@@ -3,6 +3,7 @@ x= 3.99
 X= 10
 y= True
 z= "SQL"
+# or we can declare variables like x,X,y,z= 3.99,10,True,"SQL"
 print(type(x))
 print(type(X))
 print(type(y))
