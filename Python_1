@@ -9,6 +9,8 @@ print(type(X))
 print(type(y))
 print(type(z))
 print(type(5+6j))
+# True=1/False=0
+print(True+True)
 
 # Prompt input from user
 Num1 = int(input("Please enter No.1: "))
