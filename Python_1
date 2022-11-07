@@ -7,6 +7,7 @@ print(type(x))
 print(type(X))
 print(type(y))
 print(type(z))
+print(type(5+6j))
 
 # Prompt input from user
 Num1 = int(input("Please enter No.1: "))
