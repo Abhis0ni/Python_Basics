@@ -10,4 +10,6 @@ print(a[-2:-14:-2])
 print(a[::]) # by default it will give whole string
 print(a[::-1]) # Gives reverse of string
 print(a[-8:3:])
+# below both will give same output
 print(a[-2:3:-1])
+print(a[-2:-8:-1])
