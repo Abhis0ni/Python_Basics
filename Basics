@@ -37,6 +37,10 @@ print("Is Num1>10 and Num2<10 ? " , Num1>10 and Num2<10)
 print("Is Num1>20 or Num2<10 ? " , Num1>10 or Num2<10)
 print("not(Num1>20 and Num2<10) ? " , not(Num1>10 and Num2<10)) 
 
+# Taking multiple inputs using Split function
+x, y = input("Enter two values: ").split()
+print("Number of boys: ", x)
+print("Number of girls: ", y)
 
 # IF else conditions
 Marks = int(input("Enter Marks :"))
