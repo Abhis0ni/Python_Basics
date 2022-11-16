@@ -11,6 +11,7 @@ print(type(z))
 print(type(5+6j))
 # True=1/False=0
 print(True+True)
+print(y+y)
 
 # Prompt input from user
 Num1 = int(input("Please enter No.1: "))
