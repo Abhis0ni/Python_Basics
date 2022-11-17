@@ -24,7 +24,7 @@ print(L1)
 
 # Delete content from List
 L1.remove('Hello')
-print(L1)
+print(L1) # If element not present then gives error
 
 L1.pop() # by default it remove content from last
 print(L1)
