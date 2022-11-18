@@ -3,6 +3,10 @@
 for num in range(0,11): #range(0,11) --> [0,1,2,3,4,5,6,7,8,9,10]
     print(num)
 
+for num in range(11):
+    print(num)
+
+
 for num in range(0,11,2): # with step=2 
     print(num)
 
@@ -14,11 +18,17 @@ list1 =[30,'Abhi',30.5,[1,2,3]]
 for num in list1:
     print(num)
 
+
+for num in enumerate(list1): # returns elements in form of tuples of (index,value)
+    print(num)
+
+
 list2 = [12, 75, 150, 180, 145, 525, 50]
 total = 0
 for num in list2:
     total=total+num
 print('Total from for loop : ',total)
+
 
 # Break 
 # Print first even number from list and exit
