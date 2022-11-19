@@ -1,3 +1,8 @@
+# Normal way
+def Sqr1(x):
+    return x**2
+print("Squere :",Sqr1(3))
+
 # Lambda function
 # Calculate square of a given number
 Sqr = lambda x : x**2 # syntax --> lambda <parameters> : <expression>
