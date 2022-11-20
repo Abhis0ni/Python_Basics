@@ -51,6 +51,7 @@ class dict_parse:
 
 
 Dobj = dict_parse({'K1':123,'K2':'abc'})
+print(Dobj.D)
 Dobj.key_Dict()
 Dobj.Value_Dict()
 Dobj.insert_Dict('K3',30.44)
