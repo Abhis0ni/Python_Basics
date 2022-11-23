@@ -1,4 +1,5 @@
 class list_parser: 
+    count = 5                     # Local Variable
     def __init__(self,L1):        # __init__ is a constructor used to accept data and not compulsory
         self.L1 = L1              # self is a pointer and it can be any name and used to assign data to class variables
 
@@ -6,6 +7,7 @@ class list_parser:
         if type(self.L1)==list:
             for num in self.L1:
                 print(num)
+            list_parser.count+=5
 
     def reverse(self):
         if type(self.L1)==list:
@@ -13,8 +15,10 @@ class list_parser:
 
 Obj = list_parser([1,3,2,5,4])     # Obj is object of class list_parser
 Obj2 = list_parser([100,300,200])
+print(Obj.count)
 Obj.parser()
 Obj2.parser()
+print(Obj2.count)
 print(Obj.reverse())
 print(Obj2.reverse())
 
