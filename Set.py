@@ -89,5 +89,5 @@ print(set_b - set_a)
 
 # clear set
 print(S2)
-S2.clear()  # will delete all items from set
+S2.clear()  # will delete all items in a set
 print(S2)  
