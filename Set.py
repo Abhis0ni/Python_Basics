@@ -85,3 +85,9 @@ print(set_a & set_b)
 # Difference in Sets
 print(set_a - set_b)
 print(set_b - set_a)
+
+
+# clear set
+print(S2)
+S2.clear()  # will delete all items from set
+print(S2)  
