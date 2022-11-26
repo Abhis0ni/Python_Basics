@@ -26,6 +26,7 @@ print(D2)
 print(D2['Key4'][1])
 print(list(D2['Key2'])[0])
 
+print(D2.get('Name'))
 print(D2.keys())
 print(D2.values())
 print(D2.items()) # returns individual key value pair in the form of tuple
