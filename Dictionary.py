@@ -19,14 +19,19 @@ print(D2)
 
 # Delete element from Dict
 del D2['Key6']
-del D2['Age']
+#del D2['Age']
+#print(D2)
+x= D2.pop('Age')
+print(x)
+print(D2)
+D2.popitem()  # remove last item in Dict
 print(D2)
 
 # Access values from Dict
 print(D2['Key4'][1])
 print(list(D2['Key2'])[0])
 
-print(D2.get('Name'))
+print(D2.get('Name')) # similar to D2['Name']
 print(D2.keys())
 print(D2.values())
 print(D2.items()) # returns individual key value pair in the form of tuple
