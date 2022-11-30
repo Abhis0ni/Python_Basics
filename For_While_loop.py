@@ -48,6 +48,10 @@ for num in list4:
     print("Numbers >10 :",num)
 
 
+for i in range(1,6):
+for j in range(1,i+1):
+    print(j,end=' ')    # end= allow to print o/p in single row
+print('')
 
 
 # While loop
