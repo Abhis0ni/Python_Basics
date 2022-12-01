@@ -18,9 +18,18 @@ Obj2 = list_parser([100,300,200])
 print(Obj.count)
 Obj.parser()
 Obj2.parser()
-print(Obj2.count)
 print(Obj.reverse())
 print(Obj2.reverse())
+print(Obj2.count)
+print(list_parser.count)
+
+Obj.count = 50    # Updating count value using object(instance variable)
+Obj2.count = 60   
+print(Obj.count)  # count value changed for object Obj
+print(Obj2.count)
+print(list_parser.count)  # count value not changed because it is tightly bound with class
+
+
 
 
 
