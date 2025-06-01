@@ -7,7 +7,7 @@ z= "SQL"
 print(type(x))
 print(type(X))
 print(type(y))
-print(type(z))
+print(type(z))   # both "SQL" or 'SQL' will return string
 print(type(5+6j))
 # True=1/False=0
 print(True+True)
