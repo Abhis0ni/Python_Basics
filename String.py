@@ -5,7 +5,10 @@ print(a[0])
 print(a[-1])
 print(a[-4])
 print(a[0:10])
-print(a[0:10:2]) # 2 is step and by default it is 1
+print(a[0:10:2]) 
+# 0 is start index,10 is end index
+# end index is always exclusive
+# 2 is step and by default it is 1
 print(a[-2:-14:-2])
 print(a[::]) # by default it will give whole string
 print(a[::-1]) # Gives reverse of string
