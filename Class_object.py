@@ -1,6 +1,7 @@
 class list_parser: 
     count = 5                     # Class Variable/Static variable
     def __init__(self,L1):        # __init__ is a constructor used to accept data and not compulsory
+        # instance variable
         self.L1 = L1              # self is a pointer and it can be any name and used to assign data to instance/object variables
 
     def parser(self):
