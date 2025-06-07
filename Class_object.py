@@ -52,7 +52,7 @@ class dict_parse:
             print("It is not a dictionary")
 
     def Check_Dict(self):  # take I/P from user and get keys/value
-        self.D = eval(input())
+        self.D = eval(input())  # eval() evaluates the passed string as a Python expression and returns the result
         self.key_Dict()
         self.Value_Dict()
 
