@@ -20,7 +20,7 @@ print("Max no. :",Max_num(x,y))
 # Calculate square of each item in list
 L1 = [1,2,3,4,5]
 Sqr = lambda x : x**2 
-num = 3
+#num = 3
 L2 = list(map(Sqr,L1))
 print("List of Square :",L2)
 
