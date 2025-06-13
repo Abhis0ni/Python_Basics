@@ -1,5 +1,6 @@
 
 # Declare Empty Tuple (Immutable)
+T1=()
 T2=(1213,'werwer') 
 print("Initial length of tuple :",len(T2))
 
