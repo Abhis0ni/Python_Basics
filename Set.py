@@ -1,5 +1,5 @@
 # Hold unique elements only
-# Hold immutable collections so don't hold List,Set
+# Set is Mutable but can Hold immutable collections so don't hold List,Set
 # Set is unordered selection so don't support indexing,Slicing
 
 s = {}
